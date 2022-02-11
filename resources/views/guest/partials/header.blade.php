@@ -1,6 +1,6 @@
 <header>
     <div class="container-header">
-        <img src="../../../img/dc-logo.png" alt="">
+        <img src="{{asset('img/dc-logo.png')}}" alt="">
         <ul class="container-link">
             <li><a href="#">Charatters</a>
             </li>
