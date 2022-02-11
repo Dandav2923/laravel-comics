@@ -57,6 +57,56 @@ html {
   border: 1px solid white;
 }
 
+.container-main {
+  background-color: black;
+  text-align: center;
+  position: relative;
+}
+
+.container-main .container-main-top {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.container-main .container-main-bottom {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-main .container-loadmore {
+  display: inline-block;
+  color: white;
+  padding: 0.3em 1em;
+  margin: 1em;
+  background-color: #0c7cec;
+}
+
+.container-main .container-loadmore h2 {
+  padding: 0 2em;
+  text-transform: uppercase;
+}
+
+.container-main .container-current-series {
+  display: inline-block;
+  color: white;
+  padding: 0.3em 1em;
+  margin: 1em;
+  background-color: #0c7cec;
+  position: absolute;
+  top: 35.5%;
+  left: 180px;
+}
+
+.container-main .container-current-series h2 {
+  padding: 0 1em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
 .container-footer-bottom {
   height: 200px;
   background-color: #0c7cec;
