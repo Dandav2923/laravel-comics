@@ -40,4 +40,24 @@
                 text-transform: uppercase;
             }
         }
+        .product {
+        flex-basis: calc(( 100% / 6) - 0.4em);
+        margin: 0.2em;
+        padding: 1em;
+        .container-img {
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+            img{
+                width: 100%;
+            }
+        }
+        h2 {
+            width: 100%;
+            color: white;
+            font-size: 0.7em;
+            text-transform: uppercase;
+            padding: 0.8em 0 0 0;
+        }
+    }
     }

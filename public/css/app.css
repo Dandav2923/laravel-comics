@@ -107,6 +107,30 @@ html {
   text-transform: uppercase;
 }
 
+.container-main .product {
+  flex-basis: calc(16.6666666667% - 0.4em);
+  margin: 0.2em;
+  padding: 1em;
+}
+
+.container-main .product .container-img {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+}
+
+.container-main .product .container-img img {
+  width: 100%;
+}
+
+.container-main .product h2 {
+  width: 100%;
+  color: white;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  padding: 0.8em 0 0 0;
+}
+
 .container-footer-bottom {
   height: 200px;
   background-color: #0c7cec;
