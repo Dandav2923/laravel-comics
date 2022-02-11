@@ -1,10 +1,10 @@
 @extends('guest.layout.base')
 
 @section('documentTitle')
-    {{-- {{$nomePagina}} --}}
+    Home
 @endsection
 
-@section('name')
+@section('content')
 <main>
     <div class="container">
         hello

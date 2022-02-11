@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         @include('guest.partials.header')
-        @yield('name')
+        @yield('content')
         @include('guest.partials.footer')
     </div>
 </body>
