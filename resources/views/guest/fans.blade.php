@@ -1,6 +1,6 @@
 @extends('guest.layout.base')
 @section('documentTitle')
-    Characters
+    Fans
 @endsection
 @section('content')
     <main>
