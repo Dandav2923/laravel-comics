@@ -2,9 +2,9 @@
     <div class="container-header">
         <img src="{{asset('img/dc-logo.png')}}" alt="">
         <ul class="container-link">
-            <li><a href="#">Charatters</a>
+            <li><a class="{{ 'characters' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('characters')}}">Charatters</a>
             </li>
-            <li><a class="active" href="#">Comics</a>
+            <li><a class="{{ 'home' === Route::currentRouteName() ? 'active' : '' }}" href="{{route('home')}}">Comics</a>
             </li>
             <li><a href="#">Movies</a>
             </li>
