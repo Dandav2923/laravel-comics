@@ -10,15 +10,17 @@
         <div class="container-main-top"></div>
         <div class="container-main-bottom">
             @foreach ($comics as $item)
-            <div class="product">
-                <div class="container-img">
-                    <img 
-                        src="{{$item['thumb']}}"
-                        alt="logo comics"
-                    >
+            <a href="{{route('comic', $item['id'])}}">
+                <div class="product">
+                    <div class="container-img">
+                        <img 
+                            src="{{$item['thumb']}}"
+                            alt="logo comics"
+                        >
+                    </div>
+                    <h2>{{$item['series']}}</h2>
                 </div>
-                <h2>{{$item['series']}}</h2>
-            </div>
+            </a>
             @endforeach
         </div>
         <div class="container-loadmore">

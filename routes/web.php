@@ -17,6 +17,15 @@ Route::get('/', function () {
     $data = ['comics'=> config('comics')];
     return view('guest.home', $data);
 })->name('home');
+Route::get('/comic/{id}', function ($id) {
+    $collection = collect(config('comics'));
+    $comic = $collection->where('id', $id);
+    $singleComic = '';
+    foreach ($comic as $value) {
+        $singleComic = $value;
+    }
+    return view('guest.comic',['comic'=> $singleComic]);
+})->name('comic');
 Route::get('/characters', function () {
     return view('guest.characters');
 })->name('characters');
